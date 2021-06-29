@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="247" height="452" viewBox="0 0 247 452">
+  <g id="phone1" transform="translate(0.415 0.271)">
+    <rect id="viewport" width="247" height="452" rx="19" transform="translate(-0.415 -0.271)" fill="#222127"/>
+    <g id="content">
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="160" height="18" rx="9" transform="translate(42.585 133.729)" fill="#3ab4b0"/>
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="160" height="18" rx="9" transform="translate(42.585 190.729)" fill="#3ab4b0"/>
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="160" height="19" rx="9.5" transform="translate(42.585 246.729)" fill="#3ab4b0"/>
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="73" height="16" rx="8" transform="translate(84.585 303.729)" fill="#db458e"/>
+    </g>
+  </g>
+</svg>

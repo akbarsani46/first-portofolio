@@ -1,0 +1,31 @@
+$primary: #121117;
+$primary-light: #222127;
+$secondary: #ffffff;
+$ocean: #44f1eb;
+$sakura: #db458e;
+$shadow: 6px 5px 22px black;
+// fonts
+@font-face {
+	font-family: montL;
+	src: url(./../asset/fonts/OpenSansCondensed-Light.ttf);
+}
+@font-face {
+	font-family: montR;
+	src: url(./../asset/fonts/OpenSansCondensed-LightItalic.ttf);
+}
+@font-face {
+	font-family: montB;
+	src: url(./../asset/fonts/OpenSansCondensed-Bold.ttf);
+}
+@font-face {
+	font-family: kreonL;
+	src: url(./../asset/fonts/Kreon-Light.ttf);
+}
+@font-face {
+	font-family: kreonR;
+	src: url(./../asset/fonts/Kreon-Regular.ttf);
+}
+@font-face {
+	font-family: kreonB;
+	src: url(./../asset/fonts/Kreon-Bold.ttf);
+}

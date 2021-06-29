@@ -1,0 +1,34 @@
+.t-primary {
+	color: $primary;
+}
+.t-primary-light {
+	color: $primary-light;
+}
+.t-secondary {
+	color: $secondary;
+}
+.t-ocean {
+	color: $ocean;
+}
+.t-sakura {
+	color: $sakura;
+}
+// background
+.bg-primary {
+	background: $primary;
+}
+.bg-primary-light {
+	background: $primary-light;
+}
+.bg-secondary {
+	background: $secondary;
+}
+.bg-ocean {
+	background: $ocean;
+}
+.bg-sakura {
+	background: $sakura;
+}
+a:hover {
+	text-decoration: underline;
+}

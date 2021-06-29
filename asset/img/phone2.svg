@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="246" height="452" viewBox="0 0 246 452">
+  <g id="phone2" transform="translate(0.355 -0.271)">
+    <rect id="viewport" width="246" height="452" rx="19" transform="translate(-0.355 0.271)" fill="#222127"/>
+    <g id="content">
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="191" height="91" rx="12" transform="translate(28.645 119.271)" fill="#3ab4b0"/>
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="95" height="8" rx="4" transform="translate(29.645 226.271)" fill="#fff"/>
+      <rect id="Rectangle_23" data-name="Rectangle 23" width="151" height="8" rx="4" transform="translate(29.645 251.271)" fill="#fff"/>
+      <rect id="Rectangle_24" data-name="Rectangle 24" width="179" height="8" rx="4" transform="translate(29.645 276.271)" fill="#fff"/>
+      <rect id="Rectangle_25" data-name="Rectangle 25" width="72" height="13" rx="5" transform="translate(29.645 301.271)" fill="#db458e"/>
+      <path id="Subtraction_1" data-name="Subtraction 1" d="M142.658,12H.342A5.981,5.981,0,0,1,0,10V6A6.007,6.007,0,0,1,6,0H137a6.006,6.006,0,0,1,6,6v4a5.985,5.985,0,0,1-.341,2Z" transform="translate(51.645 439.271)" fill="#3d373a"/>
+      <path id="Path_3" data-name="Path 3" d="M0,0H99.093" transform="translate(73.459 446.253)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="1.5" cy="2" rx="1.5" ry="2" transform="translate(216.645 18.271)" fill="#fff"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="1.5" cy="1.5" r="1.5" transform="translate(216.645 26.271)" fill="#fff"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="1.5" cy="1.5" r="1.5" transform="translate(216.645 33.271)" fill="#fff"/>
+      <g id="Group_26" data-name="Group 26" transform="translate(28.442 17.503)">
+        <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="11" cy="10.5" rx="11" ry="10.5" transform="translate(0.202 -0.232)" fill="#fff"/>
+        <path id="Intersection_1" data-name="Intersection 1" d="M0,10.726V8.412a2.133,2.133,0,0,1,2.158-2.1h.51a4,4,0,0,0,1.646.35,4.062,4.062,0,0,0,1.648-.35h.511a2.133,2.133,0,0,1,2.158,2.1v2.356A10.5,10.5,0,0,1,0,10.726ZM1.439,2.8A2.845,2.845,0,0,1,4.316,0,2.845,2.845,0,0,1,7.194,2.8a2.845,2.845,0,0,1-2.877,2.8A2.845,2.845,0,0,1,1.439,2.8Z" transform="translate(6.781 4.583)" fill="#121117"/>
+      </g>
+    </g>
+  </g>
+</svg>

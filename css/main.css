@@ -1,0 +1,718 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  font-family: kreonL;
+  letter-spacing: 0.1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: kreonL;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+p {
+  font-family: montL;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+}
+
+@font-face {
+  font-family: montL;
+  src: url(./../asset/fonts/OpenSansCondensed-Light.ttf);
+}
+
+@font-face {
+  font-family: montR;
+  src: url(./../asset/fonts/OpenSansCondensed-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: montB;
+  src: url(./../asset/fonts/OpenSansCondensed-Bold.ttf);
+}
+
+@font-face {
+  font-family: kreonL;
+  src: url(./../asset/fonts/Kreon-Light.ttf);
+}
+
+@font-face {
+  font-family: kreonR;
+  src: url(./../asset/fonts/Kreon-Regular.ttf);
+}
+
+@font-face {
+  font-family: kreonB;
+  src: url(./../asset/fonts/Kreon-Bold.ttf);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5%;
+  position: fixed;
+  z-index: 10;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+header .logo {
+  font-size: 1rem;
+}
+
+header .menu {
+  font-size: 1rem;
+}
+
+.t-primary {
+  color: #121117;
+}
+
+.t-primary-light {
+  color: #222127;
+}
+
+.t-secondary {
+  color: #ffffff;
+}
+
+.t-ocean {
+  color: #44f1eb;
+}
+
+.t-sakura {
+  color: #db458e;
+}
+
+.bg-primary {
+  background: #121117;
+}
+
+.bg-primary-light {
+  background: #222127;
+}
+
+.bg-secondary {
+  background: #ffffff;
+}
+
+.bg-ocean {
+  background: #44f1eb;
+}
+
+.bg-sakura {
+  background: #db458e;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.portofolio {
+  width: 100%;
+  max-width: 1980px;
+  margin: auto;
+}
+
+.portofolio main {
+  width: 100%;
+  padding: 0 5%;
+  position: relative;
+  left: 0;
+}
+
+.portofolio main #heading {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.portofolio main #heading .headline {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -55%);
+          transform: translate(-50%, -55%);
+  width: 100%;
+}
+
+.portofolio main #heading .headline h1 {
+  font-weight: 500;
+}
+
+.portofolio main #heading .headline a {
+  line-height: 3rem;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.portofolio main #heading .headline a:after {
+  content: "";
+  position: absolute;
+  height: 0.08rem;
+  width: 0rem;
+  background: #44f1eb;
+  top: 70%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 110%;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+.portofolio main #heading .headline a:hover:after {
+  width: 5rem;
+}
+
+.portofolio main #heading .scroll {
+  position: absolute;
+  bottom: 10%;
+  left: 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15rem;
+  height: 15vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.portofolio main #heading .scroll .line {
+  width: 0.17rem;
+  height: 10vh;
+  background: #ffffff;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.portofolio main #heading .scroll .line::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #44f1eb;
+  top: -100%;
+  -webkit-animation: scroll 3s ease-in-out infinite;
+          animation: scroll 3s ease-in-out infinite;
+}
+
+.portofolio main #heading .scroll p {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  right: 0;
+  bottom: 0;
+  -webkit-animation: scroll-p 1.5s ease infinite alternate;
+          animation: scroll-p 1.5s ease infinite alternate;
+}
+
+.portofolio main #heading p {
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+  line-height: 2.5rem;
+}
+
+.portofolio main #heading p a {
+  font-family: montL;
+}
+
+.portofolio main #decoration {
+  width: 100%;
+  margin-top: 10rem;
+  position: relative;
+}
+
+.portofolio main #decoration .sided {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portofolio main #decoration .sided .hero {
+  width: 25%;
+  height: 30%;
+}
+
+.portofolio main #decoration .sided .hero svg {
+  width: 30%;
+  height: 90%;
+  position: absolute;
+  z-index: -1;
+  -webkit-filter: drop-shadow(0px 0px 0.3rem #db458e);
+          filter: drop-shadow(0px 0px 0.3rem #db458e);
+}
+
+.portofolio main #decoration .sided .hero img {
+  width: 100%;
+}
+
+.portofolio main #decoration .sided .right .big-text {
+  font-size: 3rem;
+  font-weight: 100;
+  position: relative;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  padding-left: 3rem;
+  -webkit-animation: glow-ocean 0.3s ease-in-out 3s;
+          animation: glow-ocean 0.3s ease-in-out 3s;
+}
+
+.portofolio main #decoration .sided .right svg {
+  width: 15rem;
+  height: 15rem;
+  -webkit-filter: drop-shadow(0px 0px 0.3rem #44f1eb);
+          filter: drop-shadow(0px 0px 0.3rem #44f1eb);
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.portofolio main #decoration .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  -webkit-transform: translateX(-40%);
+          transform: translateX(-40%);
+}
+
+.portofolio main #decoration .bottom svg {
+  width: 15rem;
+  height: 15rem;
+  -webkit-filter: drop-shadow(0px 0px 0.3rem #44f1eb);
+          filter: drop-shadow(0px 0px 0.3rem #44f1eb);
+}
+
+.portofolio main #decoration .bottom p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 5%;
+  padding-left: 10%;
+  font-size: 1.2rem;
+}
+
+.portofolio main #journey {
+  margin-top: 40rem;
+  margin-bottom: 15rem;
+  height: 30rem;
+  display: block;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.portofolio main #journey .journey-details {
+  position: relative;
+}
+
+.portofolio main #journey .journey-details h2 {
+  font-size: 2rem;
+}
+
+.portofolio main #journey .journey-details p {
+  padding: 0.6rem 0;
+}
+
+.portofolio main #journey .journey-details a {
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.portofolio main #journey .journey-details a:after {
+  content: "";
+  position: absolute;
+  height: 0.08rem;
+  width: 0rem;
+  background: #44f1eb;
+  top: 70%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 110%;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+.portofolio main #journey .journey-details a:hover:after {
+  width: 5rem;
+}
+
+.portofolio main #journey .journey-img {
+  top: 20%;
+  right: 13%;
+  width: 35%;
+  height: 15rem;
+  position: relative;
+  z-index: 1;
+}
+
+.portofolio main #journey .journey-img svg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: drop-shadow(0px 0px 0.3rem #44f1eb);
+          filter: drop-shadow(0px 0px 0.3rem #44f1eb);
+}
+
+.portofolio main #journey .journey-img svg line {
+  stroke-width: 0.2rem;
+}
+
+.portofolio main #journey .journey-img img {
+  position: absolute;
+  width: 100%;
+  -webkit-box-shadow: 6px 5px 22px black;
+          box-shadow: 6px 5px 22px black;
+}
+
+.portofolio main #journey .journey-img .corner-up {
+  z-index: 1;
+  bottom: 40%;
+  left: 40%;
+}
+
+.portofolio main #journey .journey-img .corner-down {
+  top: 40%;
+  right: 40%;
+}
+
+.portofolio main #journey .site {
+  bottom: 10rem;
+  position: absolute;
+  left: 10rem;
+}
+
+.portofolio main #journey .site .visit {
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.portofolio main #journey .site .visit:after {
+  content: "";
+  position: absolute;
+  height: 0.08rem;
+  width: 0rem;
+  background: #44f1eb;
+  top: 70%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 110%;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+.portofolio main #journey .site .visit:hover:after {
+  width: 10rem;
+}
+
+.portofolio main #service .service-headline {
+  font-size: 4.5rem;
+}
+
+.portofolio main #service .serv {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  margin-top: 10rem;
+  height: 20rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 12%;
+}
+
+.portofolio main #service .serv .serv-details {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-weight: 100;
+}
+
+.portofolio main #service .serv .serv-details h2 {
+  font-size: 3rem;
+}
+
+.portofolio main #service .serv .serv-details p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.portofolio main #service .serv .serv-img {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  position: relative;
+  width: 30rem;
+  height: 100%;
+  justify-self: end;
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portofolio main #service .serv .serv-img svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.portofolio main #service .serv .serv-img svg.top-right {
+  bottom: 5rem;
+  left: 3rem;
+}
+
+.portofolio main #service .serv .serv-img svg.bottom-left {
+  top: 5rem;
+  right: 3rem;
+}
+
+.portofolio main #service .serv .serv-img svg.bottom-right {
+  top: 5rem;
+  left: 3rem;
+}
+
+.portofolio main #service .serv .serv-img svg.top-left {
+  bottom: 5rem;
+  right: 3rem;
+}
+
+.portofolio main #service .serv .serv-img img {
+  position: absolute;
+  width: 100%;
+  -webkit-filter: drop-shadow(6px 5px 22px black);
+          filter: drop-shadow(6px 5px 22px black);
+}
+
+.portofolio main #service .serv .phone .phones {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+}
+
+.portofolio main #service .serv .phone .phones img {
+  position: absolute;
+  height: 100%;
+}
+
+.portofolio main #service .serv .phone .phones img:nth-child(1) {
+  top: 3rem !important;
+  right: 4rem !important;
+}
+
+.portofolio main #service .serv .phone .phones img:nth-child(2) {
+  bottom: 3rem !important;
+  left: 4rem !important;
+}
+
+.portofolio main #service .serv:nth-child(2) {
+  margin: 15rem 0;
+}
+
+.portofolio main #service .ui-design {
+  margin-top: 20rem;
+}
+
+.portofolio .pagination {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.portofolio .pagination svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.portofolio .pagination svg line {
+  stroke-width: 1px;
+}
+
+@-webkit-keyframes scroll {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+@keyframes scroll {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+@-webkit-keyframes scroll-p {
+  from {
+    text-shadow: none;
+  }
+  to {
+    text-shadow: 0px 0px 24px #44f1eb, 0px 0px 24px #44f1eb;
+  }
+}
+
+@keyframes scroll-p {
+  from {
+    text-shadow: none;
+  }
+  to {
+    text-shadow: 0px 0px 24px #44f1eb, 0px 0px 24px #44f1eb;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+  .portofolio main #service .serv {
+    padding-right: 0%;
+  }
+  .portofolio main #service .serv .serv-img {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 8px;
+  }
+  .portofolio main #heading .headline {
+    top: 40%;
+  }
+  .portofolio main #heading p {
+    bottom: 40%;
+    left: 0;
+  }
+  .portofolio main #journey .journey-img {
+    right: 10%;
+    top: 30%;
+    height: 10rem;
+  }
+  .portofolio main #service .serv {
+    padding-right: 10%;
+  }
+  .portofolio main #service .serv .serv-details h2 {
+    font-size: 2rem;
+  }
+  .portofolio main #service .serv .serv-details p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .portofolio main #service .serv .serv-img {
+    width: 15rem;
+  }
+  .portofolio .pagination {
+    top: 80%;
+    right: 15%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 6px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
